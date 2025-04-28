@@ -13,7 +13,7 @@ export default function View() {
 
     const fetchDocument = async () => {
         try {
-            const response = await fetch(`https://document-management-app-fyy6.onrender.com/api/user/fetchOneDocument/${id}`, {
+            const response = await fetch(`https://document-mgmt-backend.onrender.com/api/user/fetchOneDocument/${id}`, {
                 method: "GET",
                 headers: {
                     "Content-Type": "application/json",
