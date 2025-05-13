@@ -1,8 +1,25 @@
-# React + Vite
+#Document Management App (Frontend)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+###Built a simple React App that allow user to upload their documents .
 
-Currently, two official plugins are available:
+![Screenshot of a App showing home page with some files uploaded](/home-page.png)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+##Add button - 
+###To add new file to the app
+![Screenshot of a App showing how documents are uploaded there](/file-upload.png)
+
+##Delete button - 
+###To delete the already uploaded file comes with a final confirmation from user
+![Screenshot of a App showing how documents are deleted](/confirm-delete.png)
+
+##View button - 
+###To open focused view page for that document
+![Screenshot of a App showing view page of a document](/view-page.png)
+
+##Copy url -
+###Once clicked the url of that document gets copied to clipboard that can shared with anyone
+> Shared Link can be viewed by anyone without Login
+
+##Download button - 
+###To download document in user's local system
+
